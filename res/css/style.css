@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.min_width {
+    max-width: 1400px;
+    min-height: 400px;
+}
+
+header {
+    background-color: #F5726F;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+.btn {
+    margin: 0 auto;
+    border-radius: 150px 500px 150px 500px; 
+    font-size: 26px;
+    font-weight: bold;
+    border: 0px;
+}
+
+a.btn{
+    padding: 15px;
+}
+.nav_principal {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 10px auto;
+}
+
+.nav-link {
+    color:#ffff;
+    font-weight: bold;
+    font-size: 22px;
+}
