@@ -135,7 +135,8 @@ h3 {
 }
 
 
-img.card1 {
+.card1 img  {
+   width: 100%;
    height: 398px;
    border-radius: 8px;
 }
