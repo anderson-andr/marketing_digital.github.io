@@ -1,9 +1,12 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 900px) {
     /*mostrar o menu responsivo que estava e*/
 
+    header {
+        justify-content: center;
+    }
+
     .btn {
-        margin: 0 auto;
-        border-radius: 150px 500px 150px 500px; 
+        margin: 0 auto;       
         font-size: 22px;
         font-weight: bold;
         border: 0px;
@@ -11,7 +14,7 @@
     ul.nav{
         display: flex;
         flex-wrap:initial;
-        justify-content: flex-end;
+        justify-content: center;
         margin: 0 auto;
     }
 
@@ -23,12 +26,16 @@
 
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 500px) {
     /*mostrar o menu responsivo que estava e*/
 
+    header {
+        justify-content: center;
+    }
+
     .btn {
-        margin: 0 auto;
-        border-radius: 150px 500px 150px 500px; 
+        margin: 0 auto;       
         font-size: 22px;
         font-weight: bold;
         border: 0px;
@@ -36,7 +43,7 @@
     ul.nav{
         display: flex;
         flex-wrap:initial;
-        justify-content: flex-end;
+        justify-content: center;
         margin: 0 auto;
     }
 
@@ -47,3 +54,4 @@
     }
 
 }
+
