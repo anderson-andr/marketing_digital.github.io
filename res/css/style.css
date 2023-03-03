@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    line-height: 0px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -16,6 +15,7 @@ header {
     justify-content: flex-end;
     flex-wrap: wrap;
     padding: 10px;
+    margin: 0px;
 }
 
 
@@ -41,5 +41,62 @@ a.btn{
     font-weight: bold;
     font-size: 22px;
 }
+main {
+    width: 100%;
+}
+
+#container {
+    width: 100%;
+    background-color: #ADD90D;
+    
+  
+}
 
 
+.servicos {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.nossoServicos  {
+    background-color: #278C41;
+    width: 45%;
+    margin: 10px auto;
+    text-align: center;
+    color: #ffff;
+    border-radius: 350px 500px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.lista_servicos {
+    width: 100;
+    display: flex;
+    padding: 5px;
+    list-style-type: none;
+    margin:  0 auto;
+    flex-wrap: wrap;
+  
+
+}
+.listaServicos {
+    display: flex;
+    margin: 10px auto;
+    background-color: #278C41;
+    border-radius: 350px 500px;
+    width: 220px;
+    height: 160px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ 
+   
+  
+
+}
+
+h3 {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 26px;
+}
